@@ -1,0 +1,14 @@
+name: OpenIO_Canada
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas=2.2.2
+  - numpy=1.26.4
+  - regex=2021.8.3
+  - fsspec
+  - pip
+  - pip:
+      - pymrio==0.5.4
+      - country_converter==0.7.4
